@@ -8,8 +8,7 @@ Several Open Hardware electronics devices based in the SoC ESP8266 for Home Auto
 ***
 
 ## AC Relay
-![HW Version](https://img.shields.io/badge/version-v2.0-orange.svg)
-![FW Version](https://img.shields.io/badge/version-v1.0-orange.svg)
+![Version](https://img.shields.io/badge/version-v2.0-orange.svg)
 ![Progress](http://progressed.io/bar/62)
 
 It is a relay controlled by an ESP8266 and a push button.
