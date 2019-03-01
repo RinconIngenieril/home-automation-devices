@@ -8,10 +8,27 @@ Several Open Hardware electronics devices based in the SoC ESP8266 for Home Auto
 ***
 
 ## AC Relay
-[![Version](https://img.shields.io/badge/version-v2.0-orange.svg)]
-![Progress](http://progressed.io/bar/80)
+![Version](https://img.shields.io/badge/version-v2.0-orange.svg)
+![Progress](http://progressed.io/bar/62)
 
 It is a relay controlled by an ESP8266 and a push button.
+
+#### Status
+| Task | Progress |
+|:-|:-|
+| Schema and circuit design | ![Progress](http://progressed.io/bar/100) |
+| Components selection | ![Progress](http://progressed.io/bar/100) |
+| PCB design | ![Progress](http://progressed.io/bar/100) |
+| Firmware test bench | ![Progress](http://progressed.io/bar/50) |
+| Firmware | ![Progress](http://progressed.io/bar/20) |
+| Documentation | ![Progress](http://progressed.io/bar/0) |
+
+#### For future revisions
+
+- 'LED:' LED as IO instead of Power LED
+- 'Diode Footprint:' It is wrong in the PCB design
+- 'ESP8266:' ESP8266 as SoC instead of the ESP8266-12E module
+- 'UPS:' Uninterrupted Power System. Cesar Fernández idea
 
 ***
 
