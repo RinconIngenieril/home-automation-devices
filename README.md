@@ -3,7 +3,7 @@
 
 Several Open Hardware electronics devices based in the SoC ESP8266 for Home Automation
 
-<img src="https://raw.githubusercontent.com/RinconIngenieril/Dislock/master/img/front.jpg"/>
+<img src="https://raw.githubusercontent.com/RinconIngenieril/Home-Automation-Devices/master/img/front.jpg"/>
 
 ***
 
