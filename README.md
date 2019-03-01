@@ -25,10 +25,10 @@ It is a relay controlled by an ESP8266 and a push button.
 
 #### For future revisions
 
-- 'LED:' LED as IO instead of Power LED
-- 'Diode Footprint:' It is wrong in the PCB design
-- 'ESP8266:' ESP8266 as SoC instead of the ESP8266-12E module
-- 'UPS:' Uninterrupted Power System. Cesar Fernández idea
+- `LED`: LED as IO instead of Power LED
+- `Diode Footprint`: It is wrong in the PCB design
+- `ESP8266`: ESP8266 as SoC instead of the ESP8266-12E module
+- `UPS`: Uninterrupted Power System. Cesar Fernández idea
 
 ***
 
