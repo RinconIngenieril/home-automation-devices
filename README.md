@@ -11,7 +11,7 @@ Several Open Hardware electronics devices based in the SoC ESP8266 for Home Auto
 ![Version](https://img.shields.io/badge/version-v2.0-orange.svg)
 ![Progress](http://progressed.io/bar/62)
 
-It is a relay controlled by an ESP8266 and a push button.
+It is a relay controlled by an ESP8266 and a push button. It is powered by the main AC.
 
 #### Status
 | Task | Progress |
