@@ -9,7 +9,7 @@ Several Open Hardware electronics devices based in the SoC ESP8266 for Home Auto
 
 ## AC Relay
 ![Version](https://img.shields.io/badge/version-v2.0-orange.svg)
-![Progress](http://progressed.io/bar/62)
+![Progress](http://progressed.io/bar/70)
 
 It is a relay controlled by an ESP8266 and a push button. It is powered by the main AC.
 
@@ -19,7 +19,7 @@ It is a relay controlled by an ESP8266 and a push button. It is powered by the m
 | Schema and circuit design | ![Progress](http://progressed.io/bar/100) |
 | Components selection | ![Progress](http://progressed.io/bar/100) |
 | PCB design | ![Progress](http://progressed.io/bar/100) |
-| Firmware test bench | ![Progress](http://progressed.io/bar/50) |
+| Firmware test bench | ![Progress](http://progressed.io/bar/100) |
 | Firmware | ![Progress](http://progressed.io/bar/20) |
 | Documentation | ![Progress](http://progressed.io/bar/0) |
 
