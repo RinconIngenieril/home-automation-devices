@@ -5,7 +5,7 @@ Several Open Hardware electronics devices based in the SoC ESP8266 for Home Auto
 
 All designs are made with KiCad, so make sure to have it installed.
 
-In every project you can find the KiCad designs, the Manufacturing Gerbers, the necessary firmwares and a documentation folder with BOMs and the design in PDF.
+In every project you can find the KiCad designs, the manufacturing Gerbers, the necessary firmwares and a documentation folder with BOMs and the design in PDF.
 
 <img src="https://raw.githubusercontent.com/RinconIngenieril/Home-Automation-Devices/master/img/front.jpg"/>
 
@@ -30,7 +30,7 @@ It is a relay controlled by an ESP8266 and a push button. It is powered by the m
 
 #### Firmwares
 
-###### Test
+##### Test
 
 This firmware allows you to test the hardware if needed. It will change the relay status each 400 millisenconds when the button is pressed and it will send the push button status via serial communication.
 
@@ -47,7 +47,7 @@ In order to use it you should set:
 
 ##### MQTT
 
-This firmware allows you to communicate with an MQTT broker. For example, you can install your own MQTT broker in a Raspberry Pi.
+This firmware allows you to communicate with a MQTT broker. For example, you can install your own MQTT broker in a Raspberry Pi.
 
 This is the actual firmware that I am using at home with this circuit, and it is prepared for being working 24/7. It does:
 
