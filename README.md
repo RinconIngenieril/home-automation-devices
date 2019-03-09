@@ -11,13 +11,13 @@ In every project you can find the KiCad designs, the manufacturing Gerbers, the 
 
 ***
 
-## AC Relay
+# AC Relay
 ![Version](https://img.shields.io/badge/version-v2.0-orange.svg)
 ![Progress](http://progressed.io/bar/100)
 
 It is a relay controlled by an ESP8266 and a push button. It is powered by the main AC.
 
-#### Status
+### Status
 | Task | Vesrion | Progess |
 |:-|:-|:-|
 | Schema and circuit design | 2.0 | ![Progress](http://progressed.io/bar/100) |
@@ -28,13 +28,13 @@ It is a relay controlled by an ESP8266 and a push button. It is powered by the m
 | Firmware | 1.2 | ![Progress](http://progressed.io/bar/100) |
 | Documentation | - | ![Progress](http://progressed.io/bar/100) |
 
-#### Firmwares
+### Firmwares
 
-##### Test
+#### Test
 
 This firmware allows you to test the hardware if needed. It will change the relay status each 400 millisenconds when the button is pressed and it will send the push button status via serial communication.
 
-##### AdafruitIO
+#### AdafruitIO
 
 This firmware is based in the Adafruit example for comumnicate with its MQTT broker called AdafruitIO. You can see more in <a href="https://io.adafruit.com">io.adafruit.com</a>
 
@@ -45,7 +45,7 @@ In order to use it you should set:
 - API Key from Adafruit IO
 - The MQTT feed which will be used in Adafruit IO
 
-##### MQTT
+#### MQTT
 
 This firmware allows you to communicate with a MQTT broker. For example, you can install your own MQTT broker in a Raspberry Pi.
 
@@ -58,7 +58,7 @@ This is the actual firmware that I am using at home with this circuit, and it is
 - WiFi reconnect if the signal is lost
 - MQTT Broker reconnect if the signal is lost
 
-#### For future revisions
+### For future revisions
 
 - `LED`: LED as IO instead of Power LED
 - `Diode Footprint`: It is wrong in the PCB design
@@ -68,7 +68,7 @@ This is the actual firmware that I am using at home with this circuit, and it is
 
 ***
 
-## Button with battery
+# Button with battery
 
 Coming soon
 
