@@ -64,6 +64,7 @@ This is the actual firmware that I am using at home with this circuit, and it is
 - `Diode Footprint`: It is wrong in the PCB design
 - `ESP8266`: ESP8266 as SoC instead of the ESP8266-12E module
 - `UPS`: Uninterrupted Power System. Cesar Fernández idea
+- `Capacitive button`: A capacitive external button that acts as the push button
 
 ***
 
