@@ -12,7 +12,7 @@ In every project you can find the KiCad designs, the manufacturing Gerbers, the 
 ***
 
 # AC Relay
-![Version](https://img.shields.io/badge/version-v2.0-orange.svg)
+![Version](https://img.shields.io/badge/version-v2.1-orange.svg)
 ![Progress](http://progressed.io/bar/100)
 
 It is a relay controlled by an ESP8266 and a push button. It is powered by the main AC.
@@ -20,10 +20,10 @@ It is a relay controlled by an ESP8266 and a push button. It is powered by the m
 ### Status
 | Task | Vesrion | Progess |
 |:-|:-|:-|
-| Schema and circuit design | 2.0 | ![Progress](http://progressed.io/bar/100) |
+| Schema and circuit design | 2.1 | ![Progress](http://progressed.io/bar/100) |
 | Components selection | - | ![Progress](http://progressed.io/bar/100) |
-| PCB design | 2.0 | ![Progress](http://progressed.io/bar/100) |
-| GERBERs | 2.0 | ![Progress](http://progressed.io/bar/100) |
+| PCB design | 2.1 | ![Progress](http://progressed.io/bar/100) |
+| GERBERs | 2.1 | ![Progress](http://progressed.io/bar/100) |
 | Firmware test bench | 1.0 | ![Progress](http://progressed.io/bar/100) |
 | Firmware | 1.2 | ![Progress](http://progressed.io/bar/100) |
 | Documentation | - | ![Progress](http://progressed.io/bar/100) |
@@ -61,7 +61,6 @@ This is the actual firmware that I am using at home with this circuit, and it is
 ### For future revisions
 
 - `LED`: LED as IO instead of Power LED
-- `Diode Footprint`: It is wrong in the PCB design
 - `ESP8266`: ESP8266 as SoC instead of the ESP8266-12E module
 - `UPS`: Uninterrupted Power System. Cesar Fernández idea
 - `Capacitive button`: A capacitive external button that acts as the push button

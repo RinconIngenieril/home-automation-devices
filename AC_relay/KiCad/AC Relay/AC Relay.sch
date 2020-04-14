@@ -311,7 +311,7 @@ U 1 1 5C0ACAFD
 P 6800 2050
 F 0 "D1" V 6846 1922 50  0000 R CNN
 F 1 "RGF1B" V 6755 1922 50  0000 R CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 6800 2050 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 6800 2050 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/308/RGF1B-1301585.pdf" H 6800 2050 50  0001 C CNN
 	1    6800 2050
 	0    -1   -1   0   
@@ -363,13 +363,13 @@ Relay
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 5C0B3318
-P 8700 2150
-F 0 "J3" H 8780 2142 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 8780 2051 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 8700 2150 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/324/985920-1459071.pdf" H 8700 2150 50  0001 C CNN
-	1    8700 2150
-	1    0    0    1   
+P 8700 2050
+F 0 "J3" H 8780 2042 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8780 1951 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 8700 2050 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/324/985920-1459071.pdf" H 8700 2050 50  0001 C CNN
+	1    8700 2050
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7800 2200 8100 2200
@@ -853,10 +853,6 @@ F 3 "http://www.hlktech.net/product_detail.php?ProId=54" H 2150 6300 50  0001 C 
 	1    2150 6300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 2050 8500 2050
-Wire Wire Line
-	8500 2150 8100 2150
 $Comp
 L Device:Q_NMOS_GDSD Q1
 U 1 1 5C2E9661
@@ -879,4 +875,8 @@ Wire Wire Line
 	1750 4600 2950 4600
 Wire Wire Line
 	2200 4500 2950 4500
+Wire Wire Line
+	8100 2050 8500 2050
+Wire Wire Line
+	8500 2150 8100 2150
 $EndSCHEMATC
