@@ -1,6 +1,10 @@
-update=dom 26 ene 2020 21:10:36 CET
+update=mar 10 dic 2019 21:21:21 CET
 version=1
-last_client=eeschema
+last_client=kicad
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,18 +27,17 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
+[eeschema]
 version=1
+LibDir=
+[eeschema/libraries]
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../../Doc/
+PlotDirectoryName=../../Doc/Exports/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
-[eeschema]
-version=1
-LibDir=

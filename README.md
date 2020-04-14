@@ -68,6 +68,81 @@ This is the actual firmware that I am using at home with this circuit, and it is
 
 ***
 
+# Celling lamp
+![Version](https://img.shields.io/badge/version-v2.0-orange.svg)
+![Progress](http://progressed.io/bar/100)
+
+It is a relay controlled by an ESP8266 and a push button. It is powered by the main AC.
+
+### Status
+| Task | Vesrion | Progess |
+|:-|:-|:-|
+| Schema and circuit design | 2.0 | ![Progress](http://progressed.io/bar/100) |
+| Components selection | - | ![Progress](http://progressed.io/bar/100) |
+| PCB design | 2.0 | ![Progress](http://progressed.io/bar/100) |
+| GERBERs | 2.0 | ![Progress](http://progressed.io/bar/100) |
+| Firmware test bench | 1.0 | ![Progress](http://progressed.io/bar/100) |
+| Firmware | 1.2 | ![Progress](http://progressed.io/bar/100) |
+| Documentation | - | ![Progress](http://progressed.io/bar/100) |
+
+### Firmwares
+
+#### Test
+
+This firmware allows you to test the hardware if needed. It will change the relay status each 400 millisenconds when the button is pressed and it will send the push button status via serial communication.
+
+#### AdafruitIO
+
+This firmware is based in the Adafruit example for comumnicate with its MQTT broker called AdafruitIO. You can see more in <a href="https://io.adafruit.com">io.adafruit.com</a>
+
+In order to use it you should set:
+
+- Your WiFi setting
+- You Adafruit user name
+- API Key from Adafruit IO
+- The MQTT feed which will be used in Adafruit IO
+
+#### MQTT
+
+This firmware allows you to communicate with a MQTT broker. For example, you can install your own MQTT broker in a Raspberry Pi.
+
+This is the actual firmware that I am using at home with this circuit, and it is prepared for being working 24/7. It does:
+
+- Recovery after a power failure.
+- Wake up message
+- Reconnect message
+- Serial debug
+- WiFi reconnect if the signal is lost
+- MQTT Broker reconnect if the signal is lost
+
+### For future revisions
+
+- `Diode Footprint`: It is wrong in the PCB design
+- `ESP8266`: ESP8266 as SoC instead of the ESP8266-12E module
+- `UPS`: Uninterrupted Power System. Cesar Fernández idea
+- `Capacitive button`: A capacitive external button that acts as the push button
+
+***
+
+# RGB Strip controller
+![Version](https://img.shields.io/badge/version-v1.0-orange.svg)
+![Progress](http://progressed.io/bar/100)
+
+It is a relay controlled by an ESP8266 and a push button. It is powered by the main AC.
+
+### Status
+| Task | Vesrion | Progess |
+|:-|:-|:-|
+| Schema and circuit design | 1.0 | ![Progress](http://progressed.io/bar/100) |
+| Components selection | 1.0 | ![Progress](http://progressed.io/bar/100) |
+| PCB design | 1.0 | ![Progress](http://progressed.io/bar/100) |
+| GERBERs | 1.0 | ![Progress](http://progressed.io/bar/100) |
+| Firmware test bench | - | ![Progress](http://progressed.io/bar/0) |
+| Firmware | - | ![Progress](http://progressed.io/bar/1000) |
+| Documentation | - | ![Progress](http://progressed.io/bar/100) |
+
+***
+
 # Button with battery
 
 Coming soon

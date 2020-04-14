@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name red)(type Legacy)(uri ${KIPRJMOD}/lib/red.lib)(options "")(descr ""))
+  (lib (name AC-Relay-rescue)(type Legacy)(uri "${KIPRJMOD}/AC Relay-rescue.lib")(options "")(descr ""))
+)
